@@ -1,17 +1,16 @@
-import styles from "./header.module.css";
+import styles from "./Header.module.css";
 
 function Header(){
-    return (
+    return(
         <>
-            <header className={styles.header}>
-                <span>EtecFilmes</span>
-                <nav >
-                    <a href="#">Home</a>
-                    <a href="#">Assistir</a>
-                </nav>
-            </header>
+        <header className={styles.header}>
+            <span>EtecFlix</span>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Assistir</a>
+            </nav>
+        </header>
         </>
-    )
+    );
 }
-
 export default Header;
