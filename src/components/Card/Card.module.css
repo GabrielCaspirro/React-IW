@@ -1,6 +1,5 @@
 .card{
     display:flex;
-    transform: scale(1);
     transition: 0.2s;
     padding-bottom: 2.5%;
 }
