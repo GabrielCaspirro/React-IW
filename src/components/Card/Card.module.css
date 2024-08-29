@@ -1,8 +1,16 @@
 .card{
-    display: flex;
+    display:flex;
+    transform: scale(1);
+    transition: 0.2s;
+    padding-bottom: 2.5%;
 }
 
 .card img{
-    width: 225px;
-    border-radius: 8px;
+    width:215px;
+    border-radius:8px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
 }

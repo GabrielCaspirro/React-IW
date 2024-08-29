@@ -1,23 +1,21 @@
-import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Banner from "./components/Banner";
 import Container from "./components/Container";
-import Card from "./components/Card"
+import Category, {categories,filterCategory} from "./components/Category";
+import Card from "./components/Card";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
     <Header/>
-    <Banner image="home"/>
+    <Banner image = "favoritos" />
     <Container>
-      <h2>Geografia</h2>
-      <section className="cards">
-        <Card id="B_nq7VTJZds"/>
-        <Card id="B_nq7VTJZds"/>
-        <Card id="B_nq7VTJZds"/>
-        <Card id="B_nq7VTJZds"/>
-        <Card id="B_nq7VTJZds"/>
-      </section>
+       {categories.map((category,index) =>
+         <Category category={category}>
+          {filterCategory(index).map((video) => <Card id={video.id} key={video.id} />)}
+         </Category>
+         )}
     </Container>
     <Footer/>
     </>

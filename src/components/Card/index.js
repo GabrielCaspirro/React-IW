@@ -1,17 +1,15 @@
-import styles from "./Card.module.css";
+import styles from './Card.module.css';
 
-    function Card({ id }){
+function Card ({id}){
     return(
         <section className={styles.card}>
-            <a 
-                href={`https://www.youtube.com/watch?v=${id}`}
-                rel="noreferrer noopener"
-                target="blank"
-            >
-                <img src={`https://img.youtube.com/vi/${id}/mqdefault.jpg`} alt="Capa"/>
+            <a href={`https://www.youtube.com/watch?v=${id}`}
+            rel="noreferrer noopener"
+            target="_blank">
+                <img src={`https://img.youtube.com/vi/${id}/mqdefault.jpg`} alt="capa"></img>
             </a>
         </section>
-    );
+    )
 }
 
 export default Card;
