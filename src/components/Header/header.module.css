@@ -25,7 +25,3 @@
     font-size:1.125rem;
     color:white;
 }
-.header a:hover{
-    background-color: crimson;
-    transition:0.3s;
-}
