@@ -1,7 +1,9 @@
 import Container from "../../components/Container";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
+import SearchVideoList from "../../components/SearchVideoList";
 import styles from "./search.module.css";
+import videos from "../../json/videos.json";
 
 function Search(){
     return(
@@ -10,6 +12,7 @@ function Search(){
             <Container>
                 <section className={styles.search}>
                     <h1>Pesquisar</h1>
+                    <SearchVideoList videos={videos}/>
                 </section>
             </Container>
             <Footer/>
