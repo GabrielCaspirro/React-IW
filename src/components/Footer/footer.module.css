@@ -1,19 +1,16 @@
-.footer{
-    width:100%;
-    color:white;
-    background-color:black;
-    display:flex;
+.footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
     align-items: center;
-    justify-content:center;
-    height:40px;
-    border-top:2px solid crimson;
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+    border-top: 2px solid #f44336;
     padding-block: 0.5rem;
-    height: 100%;
-    margin: 0;
-
 }
-.footer h2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+.footer h2 {
     font-size: 1rem;
     font-weight: 500;
 }
