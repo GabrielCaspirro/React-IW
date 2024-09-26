@@ -1,4 +1,4 @@
-import styles from "./VideoList.module.css";
+import styles from "./videolist.module.css";
 import Card from "../Card";
 
 function VideoList({ videos, emptyHeading }) {
