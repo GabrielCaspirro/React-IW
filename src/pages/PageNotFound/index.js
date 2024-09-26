@@ -1,5 +1,5 @@
 import erro404 from './erro404.png';
-import styles from "./pageNotFound.module.css";
+import styles from "./pagenotfound.module.css";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
