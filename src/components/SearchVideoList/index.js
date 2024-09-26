@@ -1,4 +1,4 @@
-import styles from "./SearchVideoList.module.css";
+import styles from "./searchvideolist.module.css";
 import VideoList from "../../components/VideoList";
 import { useEffect, useState } from "react";
 import Loader from "../Loader";
